@@ -11,10 +11,17 @@
 }
 
 .registration-button {
+    
     display: block;
     margin: 0 auto 10px;
+    border-bottom: ;
 }
 
 .registration-footer {
     margin-top: 25px;
+}
+
+.toLogin {
+    width: 80%;
+    border-top: 1px solid black;
 }

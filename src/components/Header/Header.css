@@ -8,3 +8,9 @@ header {
     justify-content: space-evenly;
     margin: 10px auto;
 }
+
+.header-title {
+    width: 80%;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
