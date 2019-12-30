@@ -2,17 +2,15 @@
     margin: 10px auto;
 }
 
-.registration-desc {
-    margin: 25px
-}
 .registration-label {
     display: block;
     margin: 10px
 }
 
 .registration-button {
-    display: block;
-    margin: 0 auto 20px;
+
+    margin: 0 auto 31px;
+    padding: 3px 8px;
 }
 
 .registration-footer {
@@ -23,11 +21,9 @@
 
 .toLogin {
     width: 80%;
-    margin-top: 40px;
     border-top: 1px solid white;
-    padding-top: 10px;
+    padding: 14px 0;
+    color: #A96BFF;
+    margin: 20px
 }
 
-a {
-    color: #A96BFF;
-}

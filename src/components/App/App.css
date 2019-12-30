@@ -1,8 +1,9 @@
 * {
     box-sizing: border-box;
-    color:white;
 }
 
 body {
     background-color: #0F0614;
+
+    color: white;
 }

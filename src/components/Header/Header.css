@@ -12,12 +12,32 @@ header {
 }
 
 .header-title {
-    width: 60%;
+    width: 80%;
     border-bottom: 1px solid white;
     margin: 30px auto 0;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .header-link {
     text-decoration: none;
+
+    color: #A96BFF;
+}
+
+.nav-link {
+    color: #A96BFF;
+}
+
+@media (min-width: 750px) {
+    .header-nav {
+        width: 60%;
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+    }
+
+    .header-title {
+        width: 60%;
+        margin: 30px auto 0;
+        padding-bottom: 30px;
+    }
 }
