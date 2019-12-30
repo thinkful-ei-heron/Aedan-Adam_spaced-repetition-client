@@ -1,0 +1,20 @@
+.registration-container {
+    margin: 10px auto;
+}
+
+.registration-desc {
+    margin: 25px
+}
+.registration-label {
+    display: block;
+    margin: 10px
+}
+
+.registration-button {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.registration-footer {
+    margin-top: 25px;
+}

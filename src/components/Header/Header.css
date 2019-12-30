@@ -1,0 +1,10 @@
+header {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
