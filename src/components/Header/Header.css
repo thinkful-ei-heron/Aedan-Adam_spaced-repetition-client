@@ -1,5 +1,4 @@
 header {
-    border: 1px solid black;
     text-align: center;
 }
 
@@ -11,6 +10,30 @@ header {
 
 .header-title {
     width: 80%;
-    border-bottom: 1px solid black;
-    margin: auto;
+    border-bottom: 1px solid white;
+    margin: 30px auto 0;
+    padding-bottom: 10px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #A96BFF;
+}
+
+.nav-link {
+    color: #A96BFF;
+}
+
+@media (min-width: 750px) {
+    .header-nav {
+        width: 60%;
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+    }
+
+    .header-title {
+        width: 60%;
+        margin: 30px auto 0;
+        padding-bottom: 30px;
+    }
 }
