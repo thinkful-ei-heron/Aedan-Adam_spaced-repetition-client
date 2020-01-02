@@ -1,0 +1,27 @@
+.center-container {
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#learn-guess-input{
+    margin-bottom: 30px;
+}
+
+#learning-route-header{
+    margin: 20px auto 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width:70%;
+    
+}
+
+.counter {
+    width: 30%;
+}

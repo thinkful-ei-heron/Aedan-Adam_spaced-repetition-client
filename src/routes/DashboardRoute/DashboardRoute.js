@@ -22,11 +22,6 @@ class DashboardRoute extends Component {
 
   render() {
     let counter = 0;
-    // let listOfWords = [<Word incoming={{
-    //   original: 'Word',
-    //   correct_count: 'Correct Counter',
-    //   incorrect_count: 'Incorrect Counter'
-    // }}/>]
 
     let listOfWords = this.state.words.map(word => {
       counter += word.correct_count;
@@ -48,8 +43,10 @@ class DashboardRoute extends Component {
           </div>
         </div>
         {listOfWords}
-        <Button type='submit' className='start-button'>
-          Sign up
+        <Button type='submit' className='start-button' onClick={() => {
+          this.props.history.push('/learn')
+        }}>
+          Start Learning
         </Button>
       </section>
     );
